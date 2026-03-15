@@ -1,0 +1,13 @@
+{
+  "id": "ai-agent-builder-003",
+  "skills": ["n8n-ai-agent-builder"],
+  "query": "I want an n8n AI Agent that can archive workflows, but only after the user confirms. How should the AI Agent node and action tool be designed?",
+  "expected_behavior": [
+    "Recommends a proposal-and-confirmation flow before any action tool call",
+    "Explains that the system message must forbid destructive actions before confirmation",
+    "Explains that the tool description should repeat the confirmation requirement",
+    "Suggests narrow tool input such as action plus an array of IDs",
+    "Advises against free-form destructive tool inputs",
+    "Mentions that the tool should return acknowledgement data so the agent can report real outcomes"
+  ]
+}

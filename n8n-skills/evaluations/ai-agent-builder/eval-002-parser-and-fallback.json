@@ -1,0 +1,13 @@
+{
+  "id": "ai-agent-builder-002",
+  "skills": ["n8n-ai-agent-builder"],
+  "query": "How do I configure an n8n AI Agent so it returns structured JSON and uses a fallback language model if the primary one fails?",
+  "expected_behavior": [
+    "Explains that an output parser should be connected via ai_outputParser",
+    "Explains that the workflow still needs the main ai_languageModel connection",
+    "Mentions enabling fallback on the AI Agent node",
+    "Mentions connecting a second language model for fallback behavior",
+    "Warns that the parser schema and system message must agree",
+    "May mention MCP addConnection operations with ai_languageModel and ai_outputParser"
+  ]
+}

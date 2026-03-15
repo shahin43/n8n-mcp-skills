@@ -1,0 +1,14 @@
+{
+  "id": "ai-agent-builder-001",
+  "skills": ["n8n-ai-agent-builder"],
+  "query": "I need to build an n8n AI Agent node for a chat assistant that can answer questions using tools and remember recent conversation context. How should I structure it?",
+  "expected_behavior": [
+    "Identifies this as an AI Agent node task rather than a generic workflow-pattern question",
+    "Recommends a Chat Trigger -> AI Agent topology",
+    "Mentions the required language model connection",
+    "Mentions that the current AI Agent should have at least one connected tool",
+    "Recommends adding memory for multi-turn chat behavior",
+    "Suggests using a system message to define role, tool usage, and safety rules",
+    "May reference TOPOLOGIES.md for the chat assistant layout"
+  ]
+}

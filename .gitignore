@@ -1,0 +1,7 @@
+.mcp.json
+.claude
+.claude/*
+.claude*
+.claude*/*
+!.mcp.json.example
+n8n-skills/dist/*.zip
